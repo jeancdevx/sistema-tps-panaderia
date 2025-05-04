@@ -1,0 +1,21 @@
+2.4.	Requisitos Funcionales
+RF01: Yo como administrador requiero registrar y editar los datos básicos de los trabajadores con un formulario que permita ingresar el nombre, apellidos, documento de identidad, sueldo y teléfono para tenerlos en planilla.
+RF02: Yo como administrador requiero registrar y editar los datos básicos de los productos con un formulario que permita ingresar el nombre, precio, categoría y cantidad en inventario para gestionar el stock de productos.
+RF03: Yo como administrador requiero registrar y editar las categorías de productos con un formulario que permita ingresar el nombre de la categoría para organizar los productos de manera eficiente.
+RF04: Yo como administrador requiero registrar y editar los ingredientes suministrados por el proveedor con un formulario que permita ingresar el nombre, cantidad disponible y proveedor asociado para gestionar el inventario de insumos.
+RF05: Yo como administrador requiero registrar y editar los proveedores con un formulario que permita ingresar el nombre, teléfono y dirección para mantener un registro de los proveedores de ingredientes.
+RF06: Yo como vendedor requiero listar productos con su nombre o categoría para agregarlos al detalle de venta solicitado por el cliente.
+RF06: Yo como vendedor requiero registrar una nueva venta con los productos seleccionados, cantidades y montos para guardar la transacción realizada.
+RF07: Yo como vendedor requiero generar un detalle de venta con el total a pagar para informar al cliente antes de confirmar la venta.
+RF08: Yo como vendedor requiero imprimir el detalle de venta con la información de los productos vendidos y el total para entregarlo al cliente como comprobante.
+RF09: Yo como vendedor requiero imprimir la boleta o factura con la información del cliente y el detalle de la venta para mantener un registro valido por la sunat.
+RF10: Yo como administrador requiero visualizar reportes de ventas por día, mes y año con gráficos y tablas para evaluar el desempeño del negocio.
+RF11: Yo como administrador requiero consultar los datos básicos de los trabajadores con una lista detallada.
+RF12: Yo como administrador requiero consultar el inventario de productos con una lista detallada para gestionar el stock de manera eficiente.
+RF12: Yo como administrador requiero consultar el inventario de ingredientes con una lista detallada para gestionar el stock de manera eficiente.
+RF13: Yo como administrador requiero exportar los reportes de venta con formato PDF para poder imprimirlos y mantener registro de estos.
+RF14: Yo como administrador requiero gestionar los roles de usuario con permisos específicos para vendedores y administradores para asegurar que cada usuario solo acceda a las funciones correspondientes.
+RF15: Yo como administrador requiero consultar el historial de ventas con filtros por fecha o producto para realizar análisis detallados de las transacciones.
+RF16: Yo como vendedor requiero registrar los datos básicos de un cliente natural con nombre, dni, correo y teléfono para asociarle su boleta de venta.
+RF17: Yo como vendedor requiero registrar los datos básicos de un cliente jurídico con nombre, ruc, correo y teléfono para asociarle su factura de venta.
+RF18: Yo como administrador requiero registrar los pagos realizados a los proveedores con fecha de pago, monto total y detalle del ingrediente suministrado para mantener control de egresos.
