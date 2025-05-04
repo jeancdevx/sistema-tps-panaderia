@@ -1,0 +1,6 @@
+2.2.	Historias épicas
+HE01: Yo como administrador quiero gestionar eficientemente los recursos del negocio para asegurar la correcta operación y control de la empresa.
+HE02: Yo como administrador quiero revisar los reportes diarios, semanales y mensuales de ventas que prepara el vendedor para determinar qué productos tienen mayor demanda y promocionarlo con los productos con menor demanda.
+HE03: Yo como vendedor quiero optimizar el proceso de ventas para brindar una atención rápida y precisa al cliente.
+HE04: Yo como administrador quiero mantener una lista actualizada de proveedores de ingredientes para coordinar las entregas según el requerimiento del local.
+HE05: Yo como administrador quiero recopilar todos los comprobantes de pagos y egresos (proveedores, trabajadores) para calcular la rentabilidad real del negocio en diferentes períodos.
