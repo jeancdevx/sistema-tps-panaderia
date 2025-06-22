@@ -1,0 +1,10 @@
+select *
+  from categoria;
+select *
+  from empleado;
+select *
+  from cliente;
+select *
+  from proveedor;
+select *
+  from producto;

@@ -1,0 +1,10 @@
+drop table categoria cascade constraints purge;
+drop table cliente cascade constraints purge;
+drop table empleado cascade constraints purge;
+drop table producto cascade constraints purge;
+drop table proveedor cascade constraints purge;
+drop table detalle_venta cascade constraints purge;
+drop table venta cascade constraints purge;
+drop table comprobante cascade constraints purge;
+drop table boleta cascade constraints purge;
+drop table factura cascade constraints purge;
