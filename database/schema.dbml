@@ -1,0 +1,94 @@
+// Use DBML to define your database structure
+// Panadería TPS System Database Schema
+
+Table marca {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null]
+}
+
+Table categoria {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null]
+}
+
+Table producto {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null]
+  precio decimal(10,2) [not null, note: 'precio >= 0']
+  stock integer [not null, note: 'stock >= 0']
+  id_categoria integer [not null]
+  id_marca integer [not null]
+}
+
+Table tipo_cliente {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null, note: 'natural or juridico']
+}
+
+Table cliente {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null]
+  apellido varchar(50) [not null]
+  email varchar(100) [not null]
+  id_tipo_cliente integer [not null]
+}
+
+Table empleado {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null]
+  apellido varchar(50) [not null]
+  email varchar(100) [not null]
+  telefono varchar(15)
+  direccion varchar(100)
+  dni varchar(15) [not null]
+  fecha_ingreso date [not null]
+  salario decimal(10,2) [not null, note: 'salario >= 0']
+}
+
+Table tipo_pago {
+  id integer [primary key, increment]
+  nombre varchar(50) [not null, note: 'efectivo, yape, or plin']
+}
+
+Table venta {
+  id integer [primary key, increment]
+  id_cliente integer [not null]
+  id_empleado integer [not null]
+  fecha date [not null]
+  estado varchar(20) [not null, note: 'pendiente, completada, or cancelada']
+  id_tipo_pago integer [not null]
+}
+
+Table detalle_venta {
+  id integer [primary key, increment]
+  id_venta integer [not null]
+  id_producto integer [not null]
+  cantidad integer [not null, note: 'cantidad > 0']
+}
+
+Table boleta {
+  id integer [primary key, increment]
+  id_venta integer [not null]
+  fecha date [not null]
+  dni varchar(15) [not null]
+}
+
+Table factura {
+  id integer [primary key, increment]
+  id_venta integer [not null]
+  fecha date [not null]
+  ruc varchar(15) [not null]
+  razon_social varchar(100) [not null]
+}
+
+// Relationships
+Ref: producto.id_categoria > categoria.id // Each product belongs to one category
+Ref: producto.id_marca > marca.id // Each product belongs to one brand
+Ref: cliente.id_tipo_cliente > tipo_cliente.id // Each client has one type
+Ref: venta.id_cliente > cliente.id // Each sale belongs to one client
+Ref: venta.id_empleado > empleado.id // Each sale is handled by one employee
+Ref: venta.id_tipo_pago > tipo_pago.id // Each sale has one payment type
+Ref: detalle_venta.id_venta > venta.id // Each sale detail belongs to one sale
+Ref: detalle_venta.id_producto > producto.id // Each sale detail refers to one product
+Ref: boleta.id_venta > venta.id // Each receipt belongs to one sale
+Ref: factura.id_venta > venta.id // Each invoice belongs to one sale

@@ -1,14 +1,19 @@
 2.3.	Historias de usuario
-HU01: Yo como vendedor quiero registrar todas las ventas realizadas en el día para proporcionar al administrador conocimiento de los productos más vendidos al día, semana y mes.
-HU02: Yo como administrador quiero visualizar un reporte diario, semanal y mensual de ventas para identificar los productos más vendidos.
-HU03: Yo como vendedor quiero revisar el stock actual de los productos para conocer que productos requieren reposición.
-HU04: Yo como administrador quiero registrar el egreso y factura de los proveedores para mantener un control financiero y sacar cuentas.
-HU05: Yo como vendedor quiero registrar los pagos realizados por el cliente para llevar un control de los ingresos por ventas.
-HU06: Yo como administrador quiero identificar el método de pago preferido por los clientes para generar promociones con los métodos de pago menos usados.
-HU07: Yo como administrador quiero registrar los datos básicos de los trabajadores nuevos para identificar a cada trabajador y tener medios de contacto en casos de emergencia.
-HU08: Yo como administrador quiero registrar los contactos de proveedores para contactarme con ellos cuando requiera abastecimiento de productos.
-HU09: Yo como administrador quiero visualizar un resumen de los egresos para identificar cuales son los principales costos del negocio.
-HU10: Yo como administrador quiero registrar los datos básicos de los productos y sus categorías para organizar y controlar el inventario.
-HU11: Yo como vendedor quiero generar e imprimir el comprobante de venta para informar y entregar comprobante al cliente.
-HU12: Yo como vendedor quiero consultar el historial de ventas con filtros para analizar transacciones pasadas.
-HU13: Yo como vendedor quiero registrar los datos básicos del cliente para generar su comprobante de pago como persona jurídica o natural.
+Historia Usuario
+HE01
+HU01: Yo como vendedor quiero registrar cada producto vendido con su precio y cantidad para asegurar que todas las transacciones queden documentadas
+HU02: Yo como vendedor quiero registrar los pagos realizados por el cliente para llevar un control de los ingresos por ventas
+HU03: Yo como administrador quiero revisar diariamente todas las transacciones registradas por los vendedores para verificar que no haya inconsistencias
+
+HE02
+HU04: Yo como vendedor quiero generar reportes diarios de productos vendidos para presentar al administrador
+HU05: Yo como administrador quiero ver una gráfica de las ventas semanales de productos para identificar tendencias de consumo
+
+HE03
+HU06: Yo como vendedor quiero aceptar diferentes métodos de pago (efectivo, billetera digital) para facilitar las transacciones con los clientes
+HU07: Yo como vendedor quiero revisar el stock actual de los productos para conocer que productos no pueden ser mas despachados
+HU08: Yo como vendedor quiero tener acceso a la lista de productos disponibles para visualizar el precio por unidad de cada producto
+
+HE04
+HU09: Yo como vendedor requiero registrar los datos de los clientes jurídicos o naturales para poder entregarles el comprobante de pago
+HU10: Yo como administrador requiero ver una grafica con el tipo de cliente más recurrente para generar promociones a los menos recurrentes

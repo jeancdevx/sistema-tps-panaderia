@@ -1,0 +1,59 @@
+2.4.	Requisitos Funcionales
+Historia Usuario 01
+Yo como vendedor quiero registrar cada producto vendido con su precio y cantidad para asegurar que todas las transacciones queden documentadas
+RF01	Yo como vendedor requiero recibir la solicitud de compra para seleccionar los productos del catálogo con su cantidad correspondiente
+RF02	Yo como vendedor requiero registrar los productos faltantes para mantener actualizado el catálogo con su precio unitario y stock actual
+RF03	Yo como vendedor requiero registrar una categoría única para los productos
+RNF01	Yo como vendedor requiero una computadora all-in-one con una pantalla de 24 pulgadas, procesador AMD Ryzen 7 5825U y 16GB de RAM para registrar las solicitudes de compra y productos
+RNF02	Yo como administrador requiero una base de datos en Oracle SQL con 100GB de almacenamiento, 8GB de memoria RAM y un procesador de 4 nucleos
+
+Historia Usuario 02
+Yo como vendedor quiero registrar los pagos realizados por el cliente para llevar un control de los ingresos por ventas
+RF04	Yo como vendedor requiero registrar el vuelto cuando el pago sea en efectivo para completar la transacción
+RNF03	Yo como vendedor requiero que el subtotal de cada producto se calcule automáticamente para agilizar la transacción con el precio unitario de cada producto y la cantidad seleccionada
+RNF04	Yo como vendedor requiero que el total de la venta se calcule automáticamente para la precisión del calculo con el subtotal de cada detalle de venta
+
+Historia Usuario 03
+Yo como administrador quiero revisar diariamente todas las transacciones registradas por los vendedores para verificar que no haya inconsistencias
+RF05	Yo como administrador requiero consultar todas las transacciones del día para verificar la integridad de los registros
+RF06	Yo como administrador requiero identificar discrepancias en las transacciones para corregir inconsistencias
+RNF05	Yo como administrador requiero que la base de datos realice backups diarios en horarios no laborables con los datos almacenados en las tablas para evitar la pérdida de información
+
+Historia Usuario 04
+Yo como vendedor quiero generar reportes diarios de productos vendidos para presentar al administrador
+RF07	Yo como vendedor requiero generar un reporte diario de productos vendidos para presentar al administrador con las cantidades exactas.
+RF08	Yo como vendedor requiero generar un resumen diario al cierre de jornada para determinar el producto más vendido y el que genero mayor ganancia con una tabla que incluya el total de ventas del día 
+
+Historia Usuario 05
+Yo como administrador quiero ver una gráfica de las ventas semanales de productos para identificar tendencias de consumo
+RF09	Yo como administrador requiero visualizar gráficas de ventas semanales para analizar tendencias de demanda
+RF10	Yo como administrador requiero imprimir los reportes de las ventas semanales para guardar un registro físico de las ventas
+RNF06	Yo como administrador requiero una impresora con conexión USB para imprimir los reportes de venta.
+RNF07	Yo como administrador requiero una computadora all-in-one con una pantalla de 27 pulgadas, procesador AMD Ryzen 7 5825U y 16GB de RAM para registrar las visualizar las gráficas de ventas
+RNF08	Yo como administrador requiero que el sistema cuente con mantenimiento cada mes para garantizar su integridad de uso
+
+Historia Usuario 06
+Yo como vendedor quiero aceptar diferentes métodos de pago (efectivo, billetera digital) para facilitar las transacciones con los clientes
+RF11	Yo como vendedor requiero registrar el tipo de pago elegido para llevar control del pago tipo de pago preferido con un input de selección
+RNF09	Yo como vendedor requiero que la selección de método de pago esté disponible en la misma pantalla de selección producto para facilitar el proceso
+
+Historia Usuario 07
+Yo como vendedor quiero revisar el stock actual de los productos para conocer que productos no pueden ser más despachados
+RF12	Yo como vendedor requiero consultar el stock actual de productos para verificar disponibilidad antes de la venta
+RF13	Yo como vendedor requiero informar sobre el bajo stock de productos para generar una orden de reposición
+RNF10	Yo como vendedor requiero que el stock de productos se reduzca automáticamente al registrarse una venta para llevar el control adecuado de los productos en base a la cantidad de productos detallados en la venta
+
+Historia Usuario 08
+Yo como vendedor quiero tener acceso a la lista de productos disponibles para visualizar el precio por unidad de cada producto
+RF14	Yo como vendedor requiero acceder al catálogo de productos disponibles para consultar precios unitarios actualizados
+
+Historia Usuario 09
+Yo como vendedor requiero registrar los datos de los clientes jurídicos o naturales para poder entregarles el comprobante de pago
+RF15	Yo como vendedor requiero generar un comprobante de pago con los detalles de la venta para dar a conocer al cliente el monto a pagar
+RF16	Yo como vendedor requiero registrar los datos de los clientes para asociarles el comprobante de pago con dni o ruc correspondiente
+RNF11	Yo como vendedor requiero que el comprobante de pago contenta el cálculo del monto del IGV correspondiente a la venta
+RNF12	Yo como vendedor requiero que el registro de datos del cliente y emisión del comprobante se realice en una sola pantalla para agilizar el proceso
+
+Historia Usuario 10
+Yo como administrador requiero ver una gráfica con el tipo de cliente más recurrente para generar promociones a los menos recurrentes
+RF17	Yo como administrador requiero visualizar gráficas del tipo de cliente más recurrente para diseñar estrategias promocionales.

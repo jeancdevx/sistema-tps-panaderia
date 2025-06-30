@@ -8,3 +8,5 @@ alter user panaderiadb
    quota unlimited on users;
 
 drop user panaderiadb cascade;
+
+SELECT * FROM V$VERSION;

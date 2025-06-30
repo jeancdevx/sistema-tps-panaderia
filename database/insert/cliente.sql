@@ -1,90 +1,62 @@
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'María',
-           'Torres',
-           'maria.torres@gmail.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Juan',
-           'Vásquez',
-           'juan.vasquez@hotmail.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Andrea',
-           'Ríos',
-           'andrea.rios@yahoo.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Jorge',
-           'Lozano',
-           'jorge.lozano@gmail.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Diana',
-           'Paredes',
-           'diana.paredes@gmail.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Panadería Trujillo SAC',
-           '',
-           'ventas@pantrujillosac.pe',
-           'juridico' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Supermercados Norte',
-           '',
-           'contacto@supernorte.com',
-           'juridico' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Esteban',
-           'Valdez',
-           'esteban.valdez@gmail.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Rosa',
-           'Martínez',
-           'rosa.martinez@outlook.com',
-           'natural' );
-insert into cliente (
-   nombre,
-   apellido,
-   email,
-   tipo_cliente
-) values ( 'Fernando',
-           'Ruiz',
-           'fernando.ruiz@gmail.com',
-           'natural' );
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('María', 'González', 'maria.gonzalez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Carlos', 'Rodríguez', 'carlos.rodriguez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Ana', 'López', 'ana.lopez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Luis', 'Martínez', 'luis.martinez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Carmen', 'Sánchez', 'carmen.sanchez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('José', 'Pérez', 'jose.perez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Laura', 'García', 'laura.garcia@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Miguel', 'Fernández', 'miguel.fernandez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Elena', 'Ruiz', 'elena.ruiz@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('David', 'Díaz', 'david.diaz@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Patricia', 'Moreno', 'patricia.moreno@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Antonio', 'Jiménez', 'antonio.jimenez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Isabel', 'Álvarez', 'isabel.alvarez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Francisco', 'Romero', 'francisco.romero@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Rosa', 'Navarro', 'rosa.navarro@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Manuel', 'Torres', 'manuel.torres@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Pilar', 'Domínguez', 'pilar.dominguez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Ángel', 'Vázquez', 'angel.vazquez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Dolores', 'Ramos', 'dolores.ramos@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Juan', 'Gil', 'juan.gil@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Mercedes', 'Serrano', 'mercedes.serrano@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Rafael', 'Blanco', 'rafael.blanco@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Concepción', 'Muñoz', 'concepcion.munoz@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Javier', 'Guerrero', 'javier.guerrero@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Josefa', 'Castillo', 'josefa.castillo@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Adrián', 'Medina', 'adrian.medina@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Teresa', 'Garrido', 'teresa.garrido@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Alejandro', 'Cortés', 'alejandro.cortes@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Francisca', 'Moya', 'francisca.moya@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Ignacio', 'Pena', 'ignacio.pena@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Inmaculada', 'Campos', 'inmaculada.campos@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Salvador', 'Vidal', 'salvador.vidal@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Amparo', 'Contreras', 'amparo.contreras@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Eduardo', 'Rojas', 'eduardo.rojas@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Soledad', 'Reyes', 'soledad.reyes@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Fernando', 'Pascual', 'fernando.pascual@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Gloria', 'Santos', 'gloria.santos@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Sergio', 'Aguirre', 'sergio.aguirre@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Esperanza', 'Lozano', 'esperanza.lozano@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Rubén', 'Núñez', 'ruben.nunez@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Roberto', 'Herrera', 'roberto.herrera@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Beatriz', 'Ortega', 'beatriz.ortega@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Marcos', 'Delgado', 'marcos.delgado@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Cristina', 'Morales', 'cristina.morales@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Pablo', 'Vargas', 'pablo.vargas@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Mónica', 'Castro', 'monica.castro@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Ricardo', 'Mendoza', 'ricardo.mendoza@email.com', 1);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Silvia', 'Aguilar', 'silvia.aguilar@email.com', 1);
+
+-- Clientes jurídicos (empresas)
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('TechSolutions', 'S.A.C.', 'contacto@techsolutions.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Inversiones', 'del Norte S.R.L.', 'gerencia@inversionesdelnorte.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Comercial', 'Lima E.I.R.L.', 'ventas@comerciallima.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Distribuidora', 'Central S.A.', 'admin@distribuidoracentral.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Servicios', 'Integrales S.A.C.', 'info@serviciosintegrales.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Constructora', 'San Martín S.R.L.', 'proyectos@constructorasanmartin.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Consultoría', 'Empresarial S.A.', 'consultoria@consultoriaempresarial.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Logística', 'Express E.I.R.L.', 'operaciones@logisticaexpress.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Importaciones', 'del Sur S.A.C.', 'importaciones@importacionesdelsur.com', 2);
+INSERT INTO cliente (nombre, apellido, email, id_tipo_cliente) VALUES ('Manufacturas', 'Industriales S.R.L.', 'produccion@manufacturaindustrial.com', 2);
+
+COMMIT;

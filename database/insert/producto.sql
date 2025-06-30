@@ -1,51 +1,120 @@
-insert into producto (
-   nombre,
-   precio,
-   stock,
-   id_categoria
-) values ( 'Pan de Molde',
-           3.50,
-           100,
-           1 );
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Dulce Clásico', 1.50, 100, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Conchas de Chocolate', 1.80, 80, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Orejas de Elefante', 1.60, 90, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Canela', 1.70, 85, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Churros Rellenos', 2.20, 60, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Donas Glaseadas', 2.00, 70, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Muffins de Arándanos', 2.50, 50, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Croissant de Chocolate', 2.80, 40, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Brioche', 3.00, 35, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Roles de Canela', 2.20, 65, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Pasas', 1.90, 75, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Cuernitos Dulces', 1.60, 95, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Ajonjolí', 1.40, 110, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Medialunas', 1.30, 120, 1);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Nuez', 2.10, 55, 1);
 
-insert into producto (
-   nombre,
-   precio,
-   stock,
-   fecha_vencimiento,
-   id_categoria,
-   id_proveedor
-) values ( 'Torta de Chocolate',
-           25.00,
-           50,
-           to_date('2024-11-30','YYYY-MM-DD'),
-           2,
-           2 );
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Frances', 0.80, 150, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Integral', 1.20, 100, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Molde', 2.50, 80, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Pita', 1.00, 90, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Ajo', 1.80, 70, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Focaccia', 3.50, 40, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Centeno', 2.80, 45, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Baguette', 2.00, 60, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Queso', 2.20, 55, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Ciabatta', 2.60, 50, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Maíz', 1.90, 65, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Multicereales', 2.40, 48, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Avena', 2.10, 58, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan Campesino', 1.70, 75, 2);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pan de Aceitunas', 2.80, 42, 2);
 
-insert into producto (
-   nombre,
-   precio,
-   stock,
-   fecha_vencimiento,
-   id_categoria,
-   id_proveedor
-) values ( 'Sprite',
-           2.5,
-           15,
-           to_date('2024-09-30','YYYY-MM-DD'),
-           3,
-           1 );
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Chocolate', 25.00, 10, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Vainilla', 22.00, 12, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Cheesecake', 28.00, 8, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta Red Velvet', 30.00, 6, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Zanahoria', 24.00, 9, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Limón', 23.00, 11, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta Tres Leches', 26.00, 7, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Fresa', 27.00, 8, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Pastel de Cumpleaños', 35.00, 5, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta Selva Negra', 32.00, 6, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Manzana', 21.00, 13, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Coco', 25.00, 9, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Café', 26.00, 8, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mil Hojas', 18.00, 15, 3);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Torta de Durazno', 24.00, 10, 3);
 
-insert into producto (
-   nombre,
-   precio,
-   stock,
-   fecha_vencimiento,
-   id_categoria,
-   id_proveedor
-) values ( 'Galletas de Mantequilla',
-           5.00,
-           35,
-           to_date('2024-10-15','YYYY-MM-DD'),
-           4,
-           3 );
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Chocolate', 3.50, 80, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Avena', 3.20, 90, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas Marías', 2.80, 100, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Mantequilla', 4.00, 70, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Cookies con Chispas', 3.80, 75, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Jengibre', 4.20, 60, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas Integrales', 3.60, 85, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Coco', 3.40, 88, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas Decoradas', 5.00, 50, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Limón', 3.70, 82, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Vainilla', 3.30, 92, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas Saladas', 2.90, 95, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Alfajores', 4.50, 65, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Polvorones', 3.10, 78, 4);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Galletas de Nuez', 4.10, 68, 4);
+
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Pollo', 3.50, 60, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Carne', 3.80, 55, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Queso', 3.20, 70, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Jamón y Queso', 3.60, 65, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Atún', 3.40, 58, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Verduras', 3.00, 75, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Pino', 4.00, 50, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Mariscos', 4.50, 40, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada Dulce de Manjar', 3.20, 68, 5);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Empanada de Palta', 3.30, 62, 5);
+
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mini Sandwiches', 8.00, 30, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Canapés Variados', 12.00, 25, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Vol-au-vent', 2.50, 40, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mini Quiches', 3.00, 35, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Tartaletas Dulces', 2.80, 45, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Bocaditos de Pollo', 10.00, 28, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mini Pasteles', 2.20, 50, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Bolitas de Queso', 1.80, 60, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mini Empanadas', 1.50, 80, 6);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Bocaditos Mixtos', 15.00, 20, 6);
+
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Flan de Vainilla', 4.50, 40, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Tiramisu', 6.00, 25, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mousse de Chocolate', 5.50, 30, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Crème Brûlée', 6.50, 20, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Panna Cotta', 5.00, 35, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Brownie', 3.80, 50, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Profiteroles', 4.20, 45, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Tarta de Frutas', 7.00, 18, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Éclair', 3.50, 48, 7);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Macarons', 8.00, 22, 7);
+
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Café Americano', 2.50, 200, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Cappuccino', 3.50, 150, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Latte', 4.00, 120, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Espresso', 2.00, 180, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Chocolate Caliente', 3.80, 100, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Té Verde', 2.20, 140, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Té Negro', 2.20, 145, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Chai Latte', 4.20, 80, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Mocha', 4.50, 90, 8);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Té de Manzanilla', 2.00, 160, 8);
+
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Café Helado', 3.80, 100, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Frappé de Chocolate', 5.00, 80, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Smoothie de Frutas', 4.50, 90, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Limonada', 2.80, 120, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Jugo de Naranja', 3.20, 110, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Té Helado', 2.50, 130, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Agua Mineral', 1.50, 200, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Refresco de Cola', 2.00, 150, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Milkshake de Vainilla', 4.80, 70, 9);
+INSERT INTO producto (nombre, precio, stock, id_categoria) VALUES ('Granizado', 3.50, 85, 9);
+
+COMMIT;

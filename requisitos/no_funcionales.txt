@@ -1,9 +1,0 @@
-2.5.	Requisitos No Funcionales
-RNF01: Yo como vendedor requiero una tiquetera con conexión USB para conectarse a la computadora e imprimir los detalles de la venta.
-RNF02: Yo como administrador requiero una base de datos en Oracle SQL con 5GB de almacenamiento, 100 millones de lectura mensual de filas, 10 millones de escritura de filas mensualmente para almacenar la base de datos del sistema.
-RNF03: Yo como administrador requiero que el sistema sea compatible con todos los navegadores activos para mayor flexibilidad en su uso.
-RNF04: Yo como administrador requiero que la base de datos realice backups diarios en horarios no laborables con los datos almacenados en las tablas para evitar la pérdida de información.
-RNF05: Yo como administrador requiero que el sistema cuente con mantenimiento cada mes para garantizar su integridad de uso.
-RNF06: Yo como administrador requiero una impresora con conexión USB para imprimir los reportes de venta.
-RNF07: Yo como vendedor requiero una computadora all-in-one con una pantalla de 24 pulgadas, procesador AMD Ryzen 7 5825U y 16GB de RAM para facilitar la visualización y operación del sistema.
-RNF08: Yo como administrador requiero que el sistema esté conectado a una red de internet estable con un ancho de banda mínimo de 10 Mbps para garantizar la sincronización de datos y el acceso remoto si es necesario.
